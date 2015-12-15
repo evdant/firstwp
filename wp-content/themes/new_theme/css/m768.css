@@ -1,0 +1,86 @@
+@media screen and (max-device-width: 767px), (max-width: 767px) { 
+	#menu {
+		height: auto !important;
+		position: absolute;
+		right: 0;
+	}
+
+	#menu ul {
+		margin: 0;
+		height: auto !important;
+	}
+
+	#menu li {
+/*		height: auto !important;*/
+		display: block !important;
+		background-color: #fff;
+	}
+
+	#menu li, #menu li a {
+    	line-height: 2 !important; 
+    	font-size: 24px;
+	}
+
+	#logo a {
+		line-height: 60px !important; 
+		margin-left: 10px;
+	}
+
+	.navbar-toggle {
+		margin-right: 10%;
+		margin-top: 13px;
+		margin-bottom: 13px;
+	}
+
+	#banner {
+		margin-top: 60px !important; 
+		height: auto;
+	}
+
+	#banner .container > div, #services, #portfolio, #our_team, #contact_us, #reviews {
+    	padding: 10% 3%;
+	}
+
+	#banner h3 {
+		margin: 0 0 3%;
+	}
+
+
+    #services p, #our_team p {
+    	margin-left: 10%;
+    	margin-right: 10%;
+    }
+
+    #services .row > div, #portfolio h1, #our_team h1, .employee, #contact_us h1 {
+    	margin-bottom: 7%;
+    }
+
+    .service-circle, #portfolio .thumbnail-wrap { 
+    	margin-bottom: 5%;
+    }
+
+    #services .btn {
+    	font-size: 24px;
+    }
+
+	#portfolio .btn, #our_team .btn {
+	    margin-top: 3%;
+	}
+
+	#portfolio .row, #our_team .row {
+	    margin-bottom: 0;
+	}
+
+	.photo-wrap {
+		margin-bottom: 3%;
+	}
+
+	#reviews h1 {
+	    margin: 0 7%;
+	}
+
+	#reviews p {
+    	margin: 0 0 5%;
+	}
+}
+

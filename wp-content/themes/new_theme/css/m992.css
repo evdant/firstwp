@@ -1,0 +1,27 @@
+@media screen and (max-device-width: 991px), (max-width: 991px) { 
+
+
+	#menu {
+	    margin-left: 0; 
+	}
+	
+	#menu li {
+		margin: 0;
+	}
+
+	#services .col-sm-6, .employee {
+		margin-bottom: 45px;
+	}
+
+	#contact_us h1 {
+	    margin-bottom: 60px;
+	}
+
+	#banner h3 {
+	    margin: 0 18% 60px;
+	}
+
+	#reviews p {
+		margin: 0 15% 32px;
+	}
+}
